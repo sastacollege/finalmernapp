@@ -1,0 +1,59 @@
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  height: 100vh;
+  width: 100vw;
+}
+
+.navlinkContainer {
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  letter-spacing: 1px;
+
+  box-shadow: 0px 0px 12px 1px #ffdbdc;
+  background-color: #3a4664;
+  margin-bottom: 20px;
+}
+
+.navlinkContainer .navLinkChild {
+  font-family: sans-serif;
+  font-size: 32px;
+  text-decoration: none;
+  color: #fff;
+  transition: all 0.5s ease;
+}
+
+.navlinkContainer .navLinkChild:hover {
+  color: rgb(253, 117, 221);
+  font-weight: bold;
+}
+
+.registrationForm {
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 24px;
+  border: 2px solid rgb(0, 0, 0);
+  margin: 0 auto;
+  width: 25%;
+  height: 500px;
+}
+
+.registrationForm form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+button {
+  font-family: sans-serif;
+  font-size: 20px;
+  padding: 10px;
+}
+
+input {
+  padding: 5px;
+}
