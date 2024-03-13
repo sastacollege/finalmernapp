@@ -15,7 +15,7 @@ function Register() {
 
     //HERE DATABASE
     try {
-      const responseData = axios.post("http://localhost:3000/api/v1/users/register", userData);
+      const responseData = axios.post("https://finalmernapp-beta.vercel.app/api/v1/users/register", userData);
       if (responseData) alert("DATA SENT SUCCESSFULLY");
     } catch (error) {
       console.log(error);
