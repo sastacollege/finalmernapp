@@ -17,7 +17,7 @@ const registerController = async (req, res) => {
     $or: [{ username }, { email }],
   });
 
-  if (user) {
+  if (!user) {
     return res.status(409).json({
       status: "Conflict Resource",
       message: "User already exist",
